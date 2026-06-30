@@ -3,6 +3,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-size: x-large;
     color: #000000;
     background-color: #fcf6e5;
 }
@@ -91,12 +92,12 @@ img {
         width: 95%;
     }
 
-    .disc-title {
-        width: 98%;
-        font-weight: bold;
-        font-size: large;
+    .visualization-container {
+        width: 95%;
     }
+}
 
+@media screen and (orientation: portrait) {
     .visualization-container {
         width: 95%;
     }
