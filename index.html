@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html style="height: 100vh;">
+    <head>
+        <title>Trip Signature</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="images/favicon-32x32.png">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    </head>
+    <body style="margin: 0; min-height: 100vh;">
+        <div class="column">
+            <h1 style="text-align: center; margin-bottom: 0; font-weight: 500;">Trip Signature</h1>
+            <div style="text-align: center;">
+                <p style="padding: 0; margin-top: 0;">June 30, 2025</p>
+                <p style="padding-top: 0; margin-top: 0;">Mara Solen</p>
+            </div>
+            <p>
+                On June 13, I got back from a 9 week trip to Europe where I slept in 10 different cities across 6 different countries.
+                The trip was almost entirely for work, and I went to 2 conferences (CHI and EuroVis), visited 4 research labs, and made
+                lots of new connections. I also did some fun activities like hikes and I visited with a bunch of people I already knew.
+                It was super fun but also exhausting, and I've been reflecting on my trip and how I think about each of the places I 
+                stayed in. Each one had a different energy to me, because of the differences in things like architecture, language, and
+                food, and even more importantly in the people I saw and the activities I did. 
+            </p>
+            <p>
+                I am still obsessed with lines, and one of my past line-based obsessions, signatures, has come back a bit. I think it's 
+                so interesting how a small cursive line with infinite degrees of freedom can be so distinctive, and so attached to an
+                identity. So, I made a visualization of the route I took on my trip, and for every three nights (rounded up) I slept in 
+                each city, I chose a picture that I felt represents my time there. The pictures I often felt most drawn to were the ones
+                that emphasized the differences between the places in the times that I was there. They made me reminisce on a lot of 
+                different emotions that I felt, like excitement, fun, comfort, exhaustion, extroversion, introversion, and baby fever. 
+            </p>
+        </div>
+
+        <div id="visualization-container" class="visualization-container" first-render="true">
+            <svg id="visualization" class="visualization"></svg>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js "></script>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/dayOfYear.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
